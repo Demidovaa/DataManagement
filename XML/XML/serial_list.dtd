@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE serial_list
+        [
+                <!ELEMENT serial_list (serial)>
+                <!ELEMENT serial (language | country)>
+                <!ATTLIST serial name CDATA #REQUIRED>
+                <!ATTLIST serial status CDATA #REQUIRED>
+                <!ATTLIST serial genres CDATA #REQUIRED>
+                <!ATTLIST serial season CDATA #REQUIRED>
+                <!ELEMENT country (country_code | timezone)>
+                <!ELEMENT language (#PCDATA)>
+                <!ELEMENT country_code (#PCDATA)>
+                <!ELEMENT timezone (#PCDATA)>
+                ]>
